@@ -1,0 +1,17 @@
+model:
+  name: MegaDetectorV6
+  version: "MDV6-yolov9-c"
+  size: compact
+  weights_path: "/home/umugabekazi/.cache/torch/hub/checkpoints/MDV6-yolov9-c.pt"
+detection:
+  confidence_threshold: 0.2
+  review_threshold: 0.8
+  categories:
+    -animal
+    -person
+    -vehicle
+
+source:
+  type: video_file  # will change to livestreme in filed deployement
+  camera_id: "CAM_001" 
+  location: unknown  # to be updated to GPS cordinated in the filed
