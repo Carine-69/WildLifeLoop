@@ -1,0 +1,7 @@
+model:
+  name: speciesnet
+  version: "/home/umugabekazi/.cache/kagglehub/models/google/speciesnet/pyTorch/v4.0.2a/1"
+
+classification:
+  confidence_threshold: 0.6
+  review_threshold: 0.9
