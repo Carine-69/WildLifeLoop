@@ -66,6 +66,6 @@ class Detector:
     def detect_batch(self, frames):
         all_detections = []
         for frame in frames:
-            results = self.model.single_image_detection(frame)
+            results = self.model.multi_image_detection(frame)
             all_detections.extend(self._parse_results(results))
         return all_detections
