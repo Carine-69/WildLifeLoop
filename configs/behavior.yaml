@@ -1,0 +1,9 @@
+model:
+  name : VideoMAE
+  version : "MCG-NJU/videomae-base"
+
+behavior:
+  num_frames : 16
+  confidence_threshold : 0.7
+
+
