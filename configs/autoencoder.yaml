@@ -1,0 +1,17 @@
+architecture: 
+  features: 5
+  hidden_size : 32
+  num_layers : 2
+  sequence_length : 24 # 24 observation (roughtly one day at one observation per hour)
+
+training :
+  epochs : 100
+  learning_rate : 0.001
+  batch_size : 32
+
+score:
+  confidence_threshold : 0.7
+  anomaly_threshold : 0.95
+
+storage:
+  model_dir: "models/autoencoders"
