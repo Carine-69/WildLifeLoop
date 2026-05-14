@@ -1,0 +1,6 @@
+fusion:
+  anomaly_alert_threshold: 0.15
+  high_priority_threshold: 0.35
+  audio_weight: 0.3
+  visual_weight: 0.5
+  environmental_weight: 0.2
